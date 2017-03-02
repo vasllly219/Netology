@@ -7,7 +7,6 @@
   }
   $url = $_SERVER['REQUEST_URI'];
   $url = str_replace('list', 'test', $url);
-  echo $url;
 ?>
 <!doctype html>
 <html lang="en">
